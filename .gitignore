@@ -1,0 +1,31 @@
+# Android & Gradle
+*.iml
+.gradle
+/local.properties
+local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.aar
+
+# Python & Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# RAG Data & Artifacts
+backend/data/uploads/*
+backend/data/index/*
+!backend/data/uploads/.gitkeep
+!backend/data/index/.gitkeep
+.artifacts/

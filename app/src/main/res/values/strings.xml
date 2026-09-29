@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DocumentQA</string>
+
+    <string name="title_main">Document QA Assistant</string>
+    <string name="subtitle_main">Upload documents and ask questions</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="ask_question">Ask a Question</string>
+
+    <string name="select_file">Choose File</string>
+    <string name="no_file_selected">No file selected</string>
+    <string name="upload_and_index">Upload &amp; Index</string>
+
+    <string name="type_question">Type your question…</string>
+    <string name="send">Send</string>
+
+    <string name="status_ready">Ready</string>
+    <string name="upload_success">Document uploaded successfully!</string>
+    <string name="upload_failed">Document upload failed</string>
+    <string name="query_error">Error querying assistant</string>
+</resources>

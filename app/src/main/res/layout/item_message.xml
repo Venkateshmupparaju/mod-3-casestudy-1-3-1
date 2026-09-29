@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- User message container -->
+    <LinearLayout
+        android:id="@+id/containerUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvUserMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/user_bubble"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:maxWidth="280dp" />
+    </LinearLayout>
+
+    <!-- Bot message container -->
+    <LinearLayout
+        android:id="@+id/containerBot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvBotMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bot_bubble"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:maxWidth="280dp" />
+
+        <TextView
+            android:id="@+id/tvSources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:textColor="#666666"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
